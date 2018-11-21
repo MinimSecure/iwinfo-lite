@@ -26,12 +26,9 @@
 #include <glob.h>
 #include <fnmatch.h>
 #include <stdarg.h>
+#include <stdbool.h>
 
 #include "iwinfo_nl80211.h"
-
-typedef int bool;
-#define true 1
-#define false 0
 
 #define min(x, y) ((x) < (y)) ? (x) : (y)
 
